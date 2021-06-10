@@ -1,0 +1,262 @@
+@font-face {
+    src : url(fonts/PROGRESS.ttf);
+    font-family: progress;
+}
+@font-face {
+    src : url('fonts/Oswald/Oswald.ttf');
+    font-family: oswald;
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('fonts/montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url('fonts/montserrat/Montserrat-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('fonts/montserrat/Montserrat-Bold.ttf');
+}
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+#content3{
+
+    background-image: url(images/feedback.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#content2{
+
+    background-image: url(images/moviebg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#content1{
+
+    background-image: url(images/loginbg.jpg);
+
+}
+#content{
+
+    background-image: url(images/homebg1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar .navbar-brand  {
+
+    font-size: 25px;
+    font-family: progress,sans-serif;
+    color: #FF6700 !important;
+
+
+}
+#nav1{
+    background-color:rgba(0, 0, 0,0.8) !important;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2) !important;
+}
+.bgtitle{
+
+    font-size: 40px;
+    font-family: progress,sans-serif;
+    color: white;
+
+}
+#sbar{
+
+    width:750px;
+}
+#btnsch{
+
+    border-color: #FF6700 !important;
+}
+
+#btnsch:hover{
+
+    background: #FF6700!important;
+    color: antiquewhite;
+}
+
+.login-main{
+
+ /*   display: flex;*/
+    justify-content: center;
+    height: 50%;
+
+
+}
+.avatar{
+
+
+}
+.avatarimg{
+    width: 125px;
+    height: 125px;
+
+
+    margin: 0 auto;
+}
+.inputfld{
+    width: 40%;
+    height: 50px;
+    padding: 10px auto;
+    margin: 5px auto;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    font-family:Montserrat-ExtraBold,sans-serif;
+    color: #999999;
+
+
+}
+.login-form-title{
+
+    font-family:Montserrat-ExtraBold,sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.loginbtn{
+    width: 40%;
+    height: 50px;
+    padding: 15px auto;
+    margin: 15px auto;
+    border-radius: 25px;
+    border: none;
+
+}
+.reviewbtn{
+    width: 80%;
+    height: 50px;
+    padding: 15px auto;
+    margin: 15px auto;
+    border-radius: 25px;
+    border: none;
+    background: #337ab7;
+    color: #e0e0e0;
+    font-family:Montserrat-ExtraBold,sans-serif;
+
+}
+.reviewbtn:hover{
+
+    background: #FF6700!important;
+    color: antiquewhite;
+    transition: 0.5s;
+
+}
+
+input:focus
+ {
+    outline: none !important;
+    border:2px solid #FF6700;
+
+}
+.loginbtn{
+    background: #333333;
+    color: #e0e0e0;
+    font-family:Montserrat-ExtraBold,sans-serif;
+
+}
+.loginbtn:hover{
+
+    background: #FF6700!important;
+    color: antiquewhite;
+    transition: 0.5s;
+
+}
+.regmain{
+    color: white;
+}
+.moviedetails{
+
+    color: white;
+}
+.mvname{
+
+    color: white;
+    font-size: 20px;
+}
+.movieposter{
+    height: 200px;
+    width: 200px;
+
+}
+.movieBox {
+    background: #222;
+    padding: 12px;
+    border-radius: 5px ;
+    transition: transform 0.5s;
+
+
+}
+.review {
+    border-radius: 10px;
+    background: #222;
+    color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.add_review {
+    border-radius: 25px;
+    background: #222;
+    color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.movieBox:hover{
+
+    transform: translateY(-8px);
+}
+.movieBox1 {
+    background: #222;
+    padding: 10px;
+    border-radius: 5px ;
+    transition: transform 0.5s;
+
+
+}
+.movieBox1:hover{
+
+    transform: translateY(-8px);
+}
+.wrapper1{
+    background-color: black;
+}
+html, body {
+    padding:0;
+    margin:0;
+    height:100%;}
+.foot2 {
+    position: relative;
+ /*   width: 171%;*/
+    bottom: 0;
+    /*left: -398px;*/
+    right: 0;
+}
+.comdiv{
+
+    padding-left: 86px !important;
+    padding-right: 86px !important;
+}
+.letters{
+
+
+  color: #FF6700;
+}
+.foot1 {
+    position: relative;
+       width: 140%;
+    bottom: 0;
+    left: -300px;
+    right: 0px;
+
+}
